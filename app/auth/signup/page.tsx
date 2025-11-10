@@ -21,13 +21,13 @@ const page = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
       {/* Logo */}
       <div className="mb-[100px] text-center">
-        <div className="flex justify-center items-center mb-3">
+        <div className="flex justify-center items-center mb-4">
           <Image src={MainLogo} alt="Main logo" />
         </div>
-        <h1 className="text-[40px] leading-12 text-[#2E2E2E] font-medium -tracking-[1.6]">
+        <h1 className="text-[40px] leading-12 text-[#2E2E2E] font-medium  ">
           Sign Up to your account
         </h1>
-        <p className="text-gray-500 mt-3 text-[18px] tracking-wide">
+        <p className="text-gray-500 mt-4 text-[18px] tracking-wide">
           Join us and start your journey today, it only takes <br /> a minute to
           get started.
         </p>
@@ -106,7 +106,7 @@ const page = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#3758f9] text-white py-3.5 rounded-lg hover:bg-blue-700 transition font-medium shadow-sm"
+            className="w-full bg-[#3758f9] text-[16px] text-white py-3.5 rounded-xl hover:bg-blue-700 transition font-medium shadow-sm"
           >
             Sign Up
           </button>
@@ -114,7 +114,7 @@ const page = () => {
             Already have an account?
             <a
               href="#"
-              className="text-[#3758f9] hover:underline font-medium ml-[2px]"
+              className="text-[#3758f9] hover:underline font-medium ml-1"
             >
               Login Now
             </a>
