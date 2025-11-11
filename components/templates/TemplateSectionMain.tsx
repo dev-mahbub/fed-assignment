@@ -3,7 +3,7 @@ import TopHeader from "./TopHeader";
 
 const TemplateSectionMain = () => {
   return (
-    <div className="max-w-[1455px] w-full m-auto">
+    <div className="">
       <TopHeader></TopHeader>
     </div>
   );
