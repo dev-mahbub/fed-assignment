@@ -1,13 +1,13 @@
 import Image from "next/image";
 import CelebrateIcon from "../../public/assets/top-header/celebrate.png";
-import RightArrowIcon from "../../public/assets/top-header/right-arrow.svg";
+import RightArrowIcon from "../../public/assets/icon/arrow-right.svg";
 import CloseIcon from "../../public/assets/top-header/close.svg";
 
 const TopHeader = () => {
   return (
     <div>
       <div className="container">
-        <div className="max-w-[1432px] w-full p-3 relative m-auto">
+        <div className="max-w-[1431px] w-full my-3 relative m-auto">
           <div className="bg-gray-100 py-3 text-center rounded-lg flex justify-center relative">
             <p className="text-gray-500 flex justify-center items-center gap-2">
               We just raised our biggest updates -{" "}
