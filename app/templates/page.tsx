@@ -1,10 +1,9 @@
-import TemplateSection from "@/components/templates/TemplateSection";
-import React from "react";
+import TemplateSectionMain from "@/components/templates/TemplateSectionMain";
 
 const page = () => {
   return (
     <>
-      <TemplateSection></TemplateSection>
+      <TemplateSectionMain></TemplateSectionMain>
     </>
   );
 };

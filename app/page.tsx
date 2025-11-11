@@ -1,10 +1,9 @@
-import TemplateSection from "@/components/templates/TemplateSection";
-import Image from "next/image";
+import TemplateSectionMain from "@/components/templates/TemplateSectionMain";
 
 export default function Home() {
   return (
     <>
-      <TemplateSection />
+      <TemplateSectionMain></TemplateSectionMain>
     </>
   );
 }
