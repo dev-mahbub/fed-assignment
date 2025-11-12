@@ -14,8 +14,8 @@ import RightArrowWhite from "../../public/assets/icon/arrow-right-white.svg";
 const BannerSection = () => {
   return (
     <>
-      <div>
-        <div className="relative overflow-hidden pt-20 pb-32 bg-white">
+      <div className="pb-[38px]">
+        <div className="relative overflow-hidden pt-20 pb-20 bg-white">
           <div className="absolute inset-0 overflow-hidden">
             <Image
               src={RectangleImg}
