@@ -5,9 +5,9 @@ import CloseIcon from "../../public/assets/top-header/close.svg";
 
 const TopHeader = () => {
   return (
-    <div>
-      <div className="container">
-        <div className="max-w-[1431px] w-full my-3 relative m-auto">
+    <div className="w-full bg-white border-b border-gray-200/70">
+      <div className="container border-l border-gray-200">
+        <div className="max-w-[1431px] w-full my-3 relative m-auto ">
           <div className="bg-gray-100 py-3 text-center rounded-lg flex justify-center relative">
             <p className="text-gray-500 flex justify-center items-center gap-2">
               We just raised our biggest updates -{" "}
