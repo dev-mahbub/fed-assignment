@@ -40,9 +40,7 @@ const Header = () => {
             <Link href="/" className="flex items-center space-x-2">
               <Image src={Logo} alt="" />
             </Link>
-
             <div className="hidden md:flex items-center space-x-6 text-base font-medium text-gray-700 relative">
-              {/* Components Dropdown */}
               <button
                 onClick={handleDropdown}
                 className={`flex items-center gap-2 rounded-md px-2 py-2 transition ${
@@ -106,20 +104,26 @@ const Header = () => {
                 Resources
               </Link>
 
-              {/* Dropdown Menu */}
+              {/* Dropdown Menu start*/}
               {openDropdown && (
-                <div className="absolute top-[60px] left-0 bg-white shadow-lg border border-gray-100 rounded-2xl w-[720px] p-6 flex gap-6 z-50">
-                  <div className="w-1/2 space-y-4">
+                <div className="absolute top-[60px] left-0 bg-white shadow-lg border border-gray-100 rounded-2xl w-[704px] p-2 flex justify-between gap-4 z-50">
+                  <div className="">
                     <Link
                       href="#"
-                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-gray-50 transition"
+                      className="flex gap-3 w-[336px] h-[100px] items-start py-4 pl-4 pr-4 rounded-lg hover:bg-gray-100 transition"
                     >
-                      <Image src={ApplicatoinIcon} alt="" />
+                      <div className="w-6 h-6 flex justify-center items-center">
+                        <Image
+                          src={ApplicatoinIcon}
+                          alt=""
+                          className="w-full h-full"
+                        />
+                      </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 text-sm">
+                        <h4 className="font-medium text-gray-900 text-lg leading-6">
                           Application
                         </h4>
-                        <p className="text-gray-500 text-sm leading-snug">
+                        <p className="text-gray-500 text-sm leading-snug mt-2.5">
                           Components crafted for build all kind of modern
                           webapps and sites
                         </p>
@@ -127,14 +131,16 @@ const Header = () => {
                     </Link>
                     <Link
                       href="#"
-                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-gray-50 transition"
+                      className="flex gap-3 w-[336px] h-[100px] items-start py-4 pl-4 pr-4 rounded-lg hover:bg-gray-100 transition"
                     >
-                      <Image src={DashboardIcon} alt="" />
+                      <div className="w-6 h-6 flex justify-center items-center">
+                        <Image src={DashboardIcon} alt="" className="w-4 h-4" />
+                      </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 text-sm">
+                        <h4 className="font-medium text-gray-900 text-lg leading-6">
                           Dashboard
                         </h4>
-                        <p className="text-gray-500 text-sm leading-snug">
+                        <p className="text-gray-500 text-sm leading-snug mt-2.5">
                           Build data-rich modern backends, dashboards and admin
                           panels
                         </p>
@@ -142,32 +148,35 @@ const Header = () => {
                     </Link>
                     <Link
                       href="#"
-                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-gray-50 transition"
+                      className="flex gap-3 w-[336px] h-[100px] items-start py-4 pl-4 pr-4 rounded-lg hover:bg-gray-100 transition"
                     >
-                      <Image src={AiIcon} alt="" />
+                      <div className="w-6 h-6 flex justify-center items-center">
+                        <Image src={AiIcon} alt="" className="w-4 h-4" />
+                      </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 text-sm">
+                        <h4 className="font-medium text-gray-900 text-lg leading-6">
                           AI Components
                         </h4>
-                        <p className="text-gray-500 text-sm leading-snug">
+                        <p className="text-gray-500 text-sm leading-snug mt-2.5">
                           All you need to create stunning AI tools & landing
                           pages
                         </p>
                       </div>
                     </Link>
                   </div>
-
-                  <div className="w-1/2 space-y-4 border-l border-gray-100 pl-6">
+                  <div className="">
                     <Link
                       href="#"
-                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-gray-50 transition"
+                      className="flex gap-3 w-[336px] h-[100px] items-start py-4 pl-4 pr-4 rounded-lg hover:bg-gray-100 transition"
                     >
-                      <Image src={MarketingIcon} alt="" />
+                      <div className="w-6 h-6 flex justify-center items-center">
+                        <Image src={MarketingIcon} alt="" className="w-4 h-4" />
+                      </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 text-sm">
+                        <h4 className="font-medium text-gray-900 text-lg leading-6">
                           Marketing
                         </h4>
-                        <p className="text-gray-500 text-sm leading-snug">
+                        <p className="text-gray-500 text-sm leading-snug mt-2.5">
                           All you need to create stunning and high-converting
                           landing pages
                         </p>
@@ -175,14 +184,16 @@ const Header = () => {
                     </Link>
                     <Link
                       href="#"
-                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-gray-50 transition"
+                      className="flex gap-3 w-[336px] h-[100px] items-start py-4 pl-4 pr-4 rounded-lg hover:bg-gray-100 transition"
                     >
-                      <Image src={ECommerceIcon} alt="" />
+                      <div className="w-6 h-6 flex justify-center items-center">
+                        <Image src={ECommerceIcon} alt="" className="w-4 h-4" />
+                      </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 text-sm">
+                        <h4 className="font-medium text-gray-900 text-lg leading-6">
                           E-commerce
                         </h4>
-                        <p className="text-gray-500 text-sm leading-snug">
+                        <p className="text-gray-500 text-sm leading-snug mt-2.5">
                           Components and Pages need to build complete online
                           store UI
                         </p>
@@ -190,14 +201,14 @@ const Header = () => {
                     </Link>
                     <Link
                       href="#"
-                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-gray-50 transition"
+                      className="flex gap-3 w-[336px] h-[100px] items-start py-4 pl-4 pr-4 rounded-lg hover:bg-gray-100 transition"
                     >
                       <Image src={CoreComponentIcon} alt="" />
                       <div>
-                        <h4 className="font-semibold text-gray-900 text-sm">
+                        <h4 className="font-medium text-gray-900 text-lg leading-6">
                           Core Components
                         </h4>
-                        <p className="text-gray-500 text-sm leading-snug">
+                        <p className="text-gray-500 text-sm leading-snug mt-2.5">
                           Core UI Components to kickstart any web projects –
                           Open-source
                         </p>
@@ -206,10 +217,11 @@ const Header = () => {
                   </div>
                 </div>
               )}
+              {/* Dropdown Menu end*/}
             </div>
           </div>
 
-          {/* Right Section */}
+          {/* Right area */}
           <div className="flex items-center space-x-3">
             <div className="hidden md:flex items-center bg-gray-50 rounded-lg pr-2.5 pl-4 py-2.5 border border-gray-200">
               <div>
